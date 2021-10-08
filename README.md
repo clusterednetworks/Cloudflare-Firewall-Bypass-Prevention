@@ -3,6 +3,9 @@ Cloudflare Firewall Bypass Prevention
 This code can be used in your htaccess file to block all traffic from the Internet except Cloudflare IP Blocks.
 Be sure the check that all of the IP's are in sync with Cloudflare's IP Blocks.
 <pre>
+# Cloudflare-Firewall-Bypass-Prevention
+# by ClusteredNetworks.com 
+# Date Cloudflare IP's Checked and Confirmed - Oct 8, 2021
 # BEGIN Cloudflare Firewall Bypass Prevention
 #Apache 2.4 Server
 <FilesMatch ".*">
